@@ -1,4 +1,4 @@
-from pentalpha import bautista, banzali, raymundo, espinola
+from pentalpha import bautista, banzali, raymundo, managbanag, espinola
 
 print("Prints the name of the constellation a star belongs to")
 print("Ex: Regulus, Capella, Arcturus")
@@ -14,7 +14,9 @@ print("Convert an image to grayscale")
 raymundo.convert_grayscale()
 print("")
 
-# TODO: (Managbanag) Call make_fake_person function
+print("Generate a fake person profile")
+managbanag.make_fake_person()
+print("")
 
 print("Prints random programming jokes depending on user input")
 espinola.jokes()
